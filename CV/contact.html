@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <div class="headercontainer">
+            <div class="columns">
+                <img src="/img/profil.jpg" alt="photo de profil">
+                <h1 class="container_bigtitle">Martin Vasseur</h1>
+                <ul class="headerboutons button">
+                    <li>
+                        <a href="index.html#formation">Formation</a>
+                    </li>
+                    <li>
+                        <a href="index.html#compétences">Compétences</a>
+                    </li>
+                    <li>
+                        <a href="index.html#hobbies">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+            
+            
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="section_contact">
+            <div class="container">
+                <div class="local_contact">
+                    <h2>Me contatcter:</h2>
+                    <form class="local_contact" action="https://httpbin.org/post" method="post">
+                        <fieldset>
+                            <p>Pour me contacter, merci de bien vouloir remplir ce formulaire.</p>
+
+                            <fieldset class="checkbox">
+                                <legend>Civilité</legend>
+                            
+                                <div class="checkbox">
+                                  <input type="checkbox" id="civiliteh" value="homme" name="civilite" checked>
+                                  <label class="label_checkbox" for="civilite">Homme</label>
+                                </div>
+                            
+                                <div class=checkbox>
+                                  <input type="checkbox" id="civilitef" value="femme" name="civilite">
+                                  <label for="civilite">Femme</label>
+                                </div>
+                            </fieldset>
+
+                            <div class="column">
+                                <label for="name">Nom*:</label>
+                                <input type="text" id="name" name="user_name" required="required">
+                            </div>
+                
+                            <div>
+                                <label for="firstame">Prénom*:</label>
+                                <input type="text" id="firstname" name="user_firstname" required="required">
+                            </div>
+                            
+                            <div>
+                                <label for="company">Société*:</label>
+                                <input type="text" id="company" name="user_company" required="required">
+                            </div>
+                            <div>
+                                <label for="tel">Téléphone:</label>
+                                <input type="tel" id="tel" name="user_tel">
+                            </div>
+                
+                            <div>
+                                <label for="email">Email*:</label>
+                                <input type="email" id="mail" name="user_mail" required="required">
+                            </div>
+                
+                            <div>
+                                <label for="msg">Objet*:</label>
+                                <textarea id="msg" name="user_msg" required="required"></textarea>
+                            </div>
+
+                            <p>* Champs obligatoire</p>
+
+                            <button>Envoyer</button>
+                        
+                        </fieldset>
+                        
+            
+                    </form>
+                
+                </div>
+            </div>
+        </div>
+       
+
+
+
+    </main>
+    
+    
+    <footer class="footer">
+        <div class="footercontainer">
+            <h3 class="container_title">Mes contacts</h3>
+            <div class="local_contactfooter">
+                <ul class="contactlist">
+                    <li>martin.vasseur27@gmail.com</li>
+                    <li>06 95 34 28 65</li>
+                    <li class="link"> <a href="https://www.linkedin.com/in/martin-vasseur-166747172/">https://www.linkedin.com/in/martin-vasseur-166747172/</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

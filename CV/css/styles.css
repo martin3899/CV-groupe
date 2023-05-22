@@ -1,0 +1,469 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --font-size: 18px;
+    --spacing-default: 3rem;
+    --color-primary: #191946;
+    --color-background: #f5f5f5;
+
+    font-size: var(--font-size);
+
+}
+
+img{
+    width: 200px;
+    
+}
+
+.img_header{
+    width: 200px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+p,h1 h2, h3, h4, h5, h6 {
+    margin: 0; 
+    
+}
+  
+ul, ol {
+    list-style-type: none;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 0;
+
+}
+
+.section_description{
+    padding-top:30rem;
+    padding-right:10rem;
+    background-image: url(/img/image-section-1.jpg);
+    background-size: cover;
+    background-position:center; 
+}
+
+.section_experience{
+    padding:3rem ;
+    
+}
+.section_skills{
+    padding:3rem;
+    background-image: url(/img/image-section-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section_hobbies{
+    padding:3rem;
+    background-image: url(/img/image-section-4.jpg);
+    background-size: cover; 
+    background-position: center;
+
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;    
+}
+
+.columns {
+    display: flex;
+    gap: var(--spacing-default);
+    justify-content: center;
+    
+    
+
+}
+
+.columns__column {
+    display: flex;
+    flex: 1;
+}
+
+
+
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    border-width: 2px;
+    border-style: solid;
+    background-color:#FFF;
+}
+
+
+p, h1{
+    
+}
+
+
+.header{
+    background-color: #191946;
+}
+
+
+.headercontainer{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.headerboutons{
+    display: flex;
+    align-items:center;
+    color:#FFF;
+    gap: var(--spacing-default);
+    
+}
+
+
+
+
+
+
+
+h1{
+    position:relative;
+    padding-left: 1rem;
+    padding-bottom:2rem;
+    font-family:'Dancing Script', cursive;    
+    color: #FFF;
+    font-size: 300%;
+    display: flex;
+    align-items: center;
+    top:30px;
+    left:20px;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color:#191946;
+    font-size: 250%;
+}
+
+h3 {
+    font-family:'Dancing Script', cursive;
+    color:#FFF;
+    font-size:200%;
+} 
+
+
+
+
+
+
+
+.local_description{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    font-family:'Dancing Script', cursive;
+}
+    
+
+
+.text_description{
+    max-width:80%;
+    color: #FFF;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100% ;
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    border-width: 2px;
+    border-style: solid;
+}
+    
+
+
+
+
+
+
+
+.local_experience{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.columns__column.tables{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+
+}
+
+
+table {
+    width: 100%;
+    
+}
+
+
+.green{
+    background-color:#50EAA0 ;
+    
+    
+}
+
+.blue{
+    background-color:#24ABD6 ;
+    
+}
+
+
+.grey {
+    background-color:#F0F0F0 ;
+}
+
+
+
+
+
+
+
+
+.local_skills{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    
+}
+
+
+.skillslist{
+    color: #FFF;
+    line-height: 300%;
+
+}
+
+
+
+
+
+
+.local_hobbies{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    
+}
+
+.hobbieslist{
+    color: #000;
+    line-height: 300%;
+
+}
+
+.text_hobbies{
+    max-width: 50%;
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100% ;
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #191946;
+    padding:1rem;
+
+}
+
+.footercontainer{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.link{
+    text-decoration: underline;
+    
+}
+
+
+.size{
+    width: 50px;
+    height: 50px;
+}
+
+.icon_footer{
+    display: flex;
+    flex-direction:row;
+    gap: 5rem;
+
+}
+
+.columns__column.icon{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contactlist{
+    color: #FFF;
+    line-height: 200%;
+}
+
+.local_contact{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.section_voyage{
+    padding-top: 20rem;
+    background-image: url(/img/image-asie.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.local_voyage{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom:5rem ;
+   
+}
+
+.text_voyage{
+    max-width: 40%;
+    color:#FFF;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100% ;
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    border-width: 2px;
+    border-style: solid;
+    font-family:'Dancing Script', cursive;
+    
+}
+
+
+
+
+
+
+.section_video{
+    padding-top:5rem;
+    padding-bottom: 5rem;
+}
+.local_video{
+    display: flex;
+    justify-content: center;
+}
+
+.local_polarstep{
+    display: flex;
+    align-items: center
+    
+}
+
+
+.columns__column.video{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.section_contact{
+    padding-top:5rem;
+    padding-bottom: 5rem;
+    background-color:#86cee4;
+}
+
+
+.local_contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+
+}
+
+.local_contactfooter{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+fieldset{
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+
+label{
+    width: 120px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    display: flex;
+    
+}
+
+input{
+    width: 100%;
+    padding: 0.8rem;
+}
+
+textarea{
+    width: 100%;
+    padding: 0.8rem;
+
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+.section_language{
+    background-color:#50EAA0;
+}
+
+
+
